@@ -6,7 +6,7 @@ volatile kyeword
 main()
 {
 	int value = 0,memory = 0x123;
-	volatile int *ptr = (int*)&memory;
+	volatile int *ptr = (int*)&memory;	// volatile keyword is used to not optim							ise memory //
 	
 	while(1)
 	{
